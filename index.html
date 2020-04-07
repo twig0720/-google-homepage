@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+
+.center {
+  display: block;
+  margin: auto;
+}
+
+.search {
+    border-radius: 30px;
+    border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom:thin solid #e5e5e5;
+    border-left:thin solid  #e5e5e5;
+    width:500px;
+    height: 40px;
+     background: 'url(http://winnerhun.uw.hu/vigyorpofa.gif)' no-repeat scroll 7px 7px;
+  background-position:right;
+
+}
+
+.btn {
+  border: none;
+  background-color: #f2f2f2;
+  padding: 10px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  color:#5F6368;
+}
+
+#buttoncontainer {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+ top:100px;
+
+}
+
+#langtext {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+ top:120px;
+
+}
+
+ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+li {
+   float: left;
+}
+
+li a {
+  display: block;
+  color:#5F6368 ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:15px
+}
+
+</style>
+
+
+<main>
+<img STYLE="position:relative; TOP:100px; width: 25%;" src="https://cdn.vox-cdn.com/thumbor/dyzkrQg5pFKmBQ5e5F1nlKdJ-yY=/0x0:2012x1341/1820x1213/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" alt="google logo" class="center" >
+</main>
+
+<form> 
+  <input STYLE="position:relative; TOP:70px;" type="text" name=text" class="search center" placeholder"Search here!">
+</form>
+
+<div id="buttoncontainer">
+<button class="btn" >Google Search</button>
+<button class="btn" ID="two">I'm Feeling Lucky</button>
+</div>
+
+<div id="langtext">
+<p id="offer" STYLE="font-family:arial,sans-serif; font-size:11px;"> Google offered in: </p>
+<a href="#" id="thai" STYLE="font-size:11px;color:#1a0dab"> ภาษาไทย </a>
+</div>
+</html>
+
+<ul STYLE="font-family:arial,sans-serif;">
+  <li><a href="#">Advertising</a></li>
+  <li><a href="#">Business</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">How Search works</a></li>
+  <li style="float:right"><a href="#">Settings</a></li>
+  <li style="float:right"><a href="#">Terms</a></li>
+  <li style="float:right"><a href="#">Privacy</a></li>
+  
+  
+</ul>
